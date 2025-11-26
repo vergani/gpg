@@ -3,11 +3,12 @@ GPG commands
 
 Criptografia simétrica (senha)
 ### Encriptar
-gpg --symmetric --cipher-algo AES256 meu_arquivo.pdf
+`gpg --symmetric --cipher-algo AES256 meu_arquivo.pdf`
 
 ### Descriptografar
 gpg --output meu_arquivo_decrypted.pdf --decrypt meu_arquivo.pdf.gpg
 
+---
 
 Criptografia assimétrica “para si mesmo”
 ### Encriptar (apenas para você)
